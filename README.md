@@ -74,7 +74,7 @@ You can still do:
 
 ```javascript
 import { combineReducers } from 'redux';
-import * as reducers from './ducks/index';
+import * as reducers from './ducks';
 
 const rootReducer = combineReducers(reducers);
 export default rootReducer;
